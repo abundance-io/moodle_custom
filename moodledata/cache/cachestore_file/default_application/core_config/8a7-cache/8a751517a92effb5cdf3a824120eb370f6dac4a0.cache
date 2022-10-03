@@ -1,0 +1,27 @@
+a:5:{s:18:"focusiconbackcolor";s:7:"#343a40";s:14:"focusiconcolor";s:4:"#fff";s:12:"focusmodecss";s:722:"#page-footer, .navbar, #page.drawers {
+        display: none;
+    }
+    .header-maxwidth, .secondary-navigation {
+    max-width: none;
+    }
+    #page.drawers {
+        margin-top: 0;
+    }
+    .pagelayout-standard #page.drawers .main-inner, body.limitedwidth #page.drawers .main-inner {
+        max-width: none;
+    }
+    #page {
+        margin-top: 0px;
+        transition: margin-top .5s;
+    }
+    #region-main-settings-menu.has-blocks, #region-main.has-blocks {
+        width: 100%;
+        margin: auto;
+        transition: width .5s;
+    }
+    @media (min-width: 768px ) {
+        body.drawer-open-left {
+            transition: margin-left .5s;
+            margin-left: 0;
+        }
+    }";s:6:"sticky";s:1:"0";s:7:"version";s:10:"2022022800";}

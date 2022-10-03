@@ -1,0 +1,1 @@
+s:342:"<strong>Stack trace: </strong> <ul style="text-align:left;"><li>line 770 of /lib/dml/moodle_database.php: coding_exception thrown</li><li>line 711 of /webservice/lib.php: call to moodle_database-&gt;get_in_or_equal()</li><li>line 106 of /admin/webservice/service_users.php: call to webservice-&gt;get_missing_capabilities_by_users()</li></ul>";

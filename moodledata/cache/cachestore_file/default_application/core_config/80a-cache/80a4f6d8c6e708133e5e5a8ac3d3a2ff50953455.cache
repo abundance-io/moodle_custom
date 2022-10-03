@@ -1,0 +1,218 @@
+a:44:{s:10:"brandcolor";s:7:"#01000A";s:18:"disableteacherspic";s:1:"1";s:19:"displaymarketingbox";s:1:"1";s:17:"enablecourseindex";s:1:"1";s:8:"facebook";s:0:"";s:8:"faqcount";s:1:"0";s:7:"favicon";s:0:"";s:8:"fontsite";s:4:"Sora";s:15:"googleanalytics";s:0:"";s:9:"instagram";s:0:"";s:8:"linkedin";s:0:"";s:10:"loginbgimg";s:0:"";s:4:"logo";s:0:"";s:4:"mail";s:0:"";s:17:"marketing1content";s:73:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.";s:17:"marketing1heading";s:5:"Lorem";s:14:"marketing1icon";s:0:"";s:17:"marketing2content";s:73:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.";s:17:"marketing2heading";s:5:"Lorem";s:14:"marketing2icon";s:0:"";s:17:"marketing3content";s:73:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.";s:17:"marketing3heading";s:5:"Lorem";s:14:"marketing3icon";s:0:"";s:17:"marketing4content";s:73:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.";s:17:"marketing4heading";s:5:"Lorem";s:14:"marketing4icon";s:0:"";s:16:"marketingcontent";s:74:"Moove is a Moodle template based on Boost with modern and creative design.";s:16:"marketingheading";s:6:"Peaque";s:6:"mobile";s:0:"";s:16:"numbersfrontpage";s:1:"1";s:23:"numbersfrontpagecontent";s:0:"";s:6:"preset";s:12:"default.scss";s:11:"presetfiles";s:0:"";s:4:"scss";s:4760:"[role="main"] .tertiary-navigation a.btn {
+  border-radius: 0;
+}
+
+input.btn {
+  border-radius: 0;
+}
+
+
+.drawers.drag-container {
+  background-color: #fff;
+  box-shadow: 6px 1px 12px -1px rgba(189,189,189,0.75);
+-webkit-box-shadow: 6px 1px 12px -1px rgba(189,189,189,0.75);
+-moz-box-shadow: 6px 1px 12px -1px rgba(189,189,189,0.75);
+}
+
+.drawer.drawer-right {
+  background-color: var(--light);
+}
+
+.drawer.drawer-right .drawercontent section {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.drawer.drawer-right .drawercontent section .card-body .content .othernav {
+  display: flex;
+  flex-direction: column;
+  width: 100% !important;
+}
+
+.drawer.drawer-right .drawercontent section .card-body .content .othernav a {
+  padding: 10px 12px;
+  width: 100% !important;
+  text-align: center;
+  border-radius: 0px;
+  text-decoration: none;
+}
+
+.drawer.drawer-right .drawercontent section .card-body .content .othernav a:hover {
+  color: white;
+  background-color: #0f47ad;
+}
+
+.drawer.drawer-right .drawercontent section .card-body .content .othernav .singlebutton form button {
+  padding: 10px 12px;
+  width: 100% !important;
+  text-align: center;
+  border-radius: 0px;
+}
+
+.drawer.drawer-right .drawercontent section .card-body .content .multipages h3 {
+  margin-bottom: 16px !important;
+}
+
+.drawer.drawer-right .drawercontent section .card-body .content .multipages a .thispageholder {
+  background-color: transparent !important;
+  border: none !important;
+  background: none !important;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px !important;
+  margin-left: auto;
+}
+
+.drawer.drawer-right .drawercontent section .card-body .content .multipages a.flagged .thispageholder {
+  background-color: red !important;
+ 
+}
+
+.main-inner {
+  padding: 0 !important;
+  background-color: transparent !important;
+}
+
+.main-inner #region-main {
+  background-color: transparent !important;
+  padding: 0;
+}
+
+.main-inner #region-main [role="main"] {
+  padding: 0 !important;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.que {
+  display: flex;
+  flex-direction: column;
+}
+
+.que>.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100% !important;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+}
+
+.info .no {
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-size: 1rem !important;
+  font-weight: normal;
+}
+
+.info .no span.qno {
+  // color: white;
+  font-weight: normal;
+  font-size: 1rem !important;
+}
+
+.info .state, .info .grade {
+  display: none;
+}
+
+.info .questionflag {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.info .questionflag .aabtn, .info .editquestion a {
+  font-size: .8rem !important;
+  text-decoration: none !important;
+  color: black !important;
+  display: flex;
+  align-items: center;
+}
+
+.info .questionflag .aabtn img, .info .editquestion a i {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%)
+}
+
+.que .content {
+  margin: 20px 0 0 0 !important;
+}
+
+.que .content .formulation {
+  border-radius: 0;
+  margin-bottom: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+.que .content .formulation .qtext p {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.que .content .formulation .qtext p br {
+  height: 0;
+  margin: 0;
+  padding: 0;
+  display: none !important;
+}
+
+.que .content .formulation .ablock .answer>div>div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+
+.que .content .formulation .ablock .answer>div {
+  padding: 12px 0;
+  border-bottom: 1px solid black;
+}
+
+.que .content .formulation .ablock .answer>div:first-of-type {
+  border-top: 1px solid black;
+}
+
+.que .content .formulation .ablock .answer>div>input {
+  display: none;
+}
+
+.que .content .formulation .ablock .answer div span.answernumber {
+  cursor: pointer;
+  --size: 30px;
+  z-index: 22;
+  background-color: transparent;
+  display: flex;
+  width: var(--size);
+  height: var(--size);
+  padding-left: 3px;
+  padding-top: 2px;
+  border-radius: calc(var(--size) / 2);
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  font-weight: 500;
+}
+
+.que .content .formulation .ablock .answer>div>input:checked ~ div span.answernumber {
+  color: white;
+  background-color: var(--primary);
+}
+
+.que .content .formulation .ablock .qtype_multichoice_clearchoice {
+  margin-top: 14px;
+}
+
+// #yui_3_17_2_1_1662726427131_348 {
+//  display: none !important;
+//}
+
+.madeby {
+  display: none;
+}";s:7:"scsspre";s:0:"";s:18:"secondarymenucolor";s:7:"#0C5000";s:11:"slidercount";s:1:"1";s:12:"sliderimage1";s:0:"";s:8:"telegram";s:0:"";s:7:"twitter";s:0:"";s:7:"version";s:10:"2022062005";s:7:"website";s:0:"";s:8:"whatsapp";s:0:"";s:7:"youtube";s:0:"";}
