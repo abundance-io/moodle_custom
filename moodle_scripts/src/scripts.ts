@@ -1,8 +1,8 @@
 import { Category, Teacher, User, Course } from "./moodle_types";
 import { Result, isOk} from "./utils";
 import { parseStringPromise } from "xml2js";
-const TOKEN = "9afe69b247d60b53b0dcb734e8d14850";
-const BASEQUERY = "http://peaque.study/learn/webservice/rest/server.php?";
+const TOKEN = "";
+const BASEQUERY = "";
 
 export function get_id(moodle_object: object): string {
   return "0";
